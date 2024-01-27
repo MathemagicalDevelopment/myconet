@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myconetaws-dev-165529-authRole",
+      "UnauthRoleArn": "arn:aws:iam::382817902018:role/amplify-myconetaws-dev-165529-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::382817902018:role/amplify-myconetaws-dev-165529-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-myconetaws-dev-165529-deployment",
+      "UnauthRoleName": "amplify-myconetaws-dev-165529-unauthRole",
+      "StackName": "amplify-myconetaws-dev-165529",
+      "StackId": "arn:aws:cloudformation:eu-west-1:382817902018:stack/amplify-myconetaws-dev-165529/e0b8a390-bd34-11ee-aea5-0a4585ea524f",
+      "AmplifyAppId": "d1mw480vpit53h",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-myconetaws-dev-165529-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "myconetaws66b9c2bb": {}
+      },
+      "function": {
+        "test": {
+          "deploymentBucketName": "amplify-myconetaws-dev-165529-deployment",
+          "s3Key": "amplify-builds/test-77383875506341745145-build.zip"
+        },
+        "S3Trigger56797c09": {
+          "deploymentBucketName": "amplify-myconetaws-dev-165529-deployment",
+          "s3Key": "amplify-builds/S3Trigger56797c09-4a46526e6b4b6d647244-build.zip"
+        }
+      },
+      "storage": {
+        "myconetaws": {}
+      },
+      "api": {
+        "myconetaws": {}
+      }
+    }
+  }
+}

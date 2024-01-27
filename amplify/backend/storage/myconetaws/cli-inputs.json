@@ -1,0 +1,16 @@
+{
+  "resourceName": "myconetaws",
+  "policyUUID": "a3b67070",
+  "bucketName": "myconetaws",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger56797c09",
+  "groupAccess": {}
+}
