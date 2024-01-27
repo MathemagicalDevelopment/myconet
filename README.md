@@ -132,3 +132,31 @@ Create RDS Proxy
 You will need to create a new secret in order to create the RDS Proxy logged in as the master account
 
 Wallah, we can connect to the database.
+
+#### Create dev database
+
+`CREATE DATABASE dev;`
+
+#### Create profiles table
+
+`USE dev;`
+
+`CREATE TABLE profiles(
+    profile_id varchar(70) PRIMARY KEY
+    name varchar(40)
+    image varchar
+    avatar varchar 
+    created_at timestamp
+    updated_at timestamp
+    last_login timestamp
+);`
+
+Now that we've created the profiles table we want to create a lambda function to trigger when the user authenticates.
+
+The lambda function will take the generated cognito id and create a new row in the profiles table.
+
+The users sign up flow is as follows:
+- user creates account (creates cognito ID which triggers the creation of a new profiles row for this user account)
+- user verifies email address
+- user sent to page: /complete-profile
+- user adds avatar image, profile image, creates their handle and their name. Handle cannot be changed.
