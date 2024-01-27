@@ -113,3 +113,22 @@ And that's all the paths we'll add for now.
 
 This will create the Cognito user pool, the S3 resource and bucket, a lambda function to trigger S3 connections, a test lambda function and configure the api in API gateway.
 
+### API Dummy functions
+
+In order for us to set up dummy functions that connect to the database, we'll first need to create the database and database proxy.
+
+#### Creating the database
+
+Head over to AWS RDS and create a free tier PostgreSQL database.
+Ensure that it is set-up to be publicly accessible.
+
+MASTER USER
+postgres
+databasePassword123
+
+Wait for the Database to be set up and deployed
+
+Create RDS Proxy
+You will need to create a new secret in order to create the RDS Proxy logged in as the master account
+
+Wallah, we can connect to the database.
