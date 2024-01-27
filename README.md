@@ -160,3 +160,17 @@ The users sign up flow is as follows:
 - user verifies email address
 - user sent to page: /complete-profile
 - user adds avatar image, profile image, creates their handle and their name. Handle cannot be changed.
+
+#### Create Sign-up trigger
+
+Create the lambda function
+
+`amplify add function`
+Function
+Named: myconetSignupTrigger
+NodeJS
+Serverless ExpressJS function
+n
+n
+`amplify push`
+`amplify publish`
