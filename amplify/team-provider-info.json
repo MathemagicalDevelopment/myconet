@@ -25,7 +25,10 @@
           "deploymentBucketName": "amplify-myconetaws-dev-165529-deployment",
           "s3Key": "amplify-builds/S3Trigger56797c09-4a46526e6b4b6d647244-build.zip"
         },
-        "myconetSignupTrigger": {}
+        "myconetSignupTrigger": {
+          "deploymentBucketName": "amplify-myconetaws-dev-165529-deployment",
+          "s3Key": "amplify-builds/myconetSignupTrigger-47763270752b2f756c7a-build.zip"
+        }
       },
       "storage": {
         "myconetaws": {}

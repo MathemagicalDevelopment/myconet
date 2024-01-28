@@ -77,6 +77,22 @@
         }
       ]
     },
+    "AMPLIFY_function_myconetSignupTrigger_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myconetSignupTrigger"
+        }
+      ]
+    },
+    "AMPLIFY_function_myconetSignupTrigger_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myconetSignupTrigger"
+        }
+      ]
+    },
     "AMPLIFY_function_test_deploymentBucketName": {
       "usedBy": [
         {
